@@ -16,7 +16,7 @@ const SearchComponent = () => {
     const textInput = React.createRef();
 
     const handleClick = () => {
-        dispatch({ type: types.SEARCH_REQUESTED, queryString: queryString })
+        dispatch({ type: types.SEARCH_REQUESTED, queryString: queryString });
     }
 
     const handleText = (event) => {
